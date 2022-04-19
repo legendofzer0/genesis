@@ -74,3 +74,21 @@ class-2 {
     width: 1000px;
     height: auto;
 }
+
+#White {
+    background-color: white;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 600px;
+}
+
+#Black {
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
