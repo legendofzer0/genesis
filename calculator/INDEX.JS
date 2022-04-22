@@ -13,7 +13,8 @@ const sub= document.getElementById("minus");
 const mul= document.getElementById("product");
 const divide= document.getElementById("divide");
 const equal= document.getElementById("eql");
-const ans= document.getElementById("display")
+const ans= document.getElementById("display");
+const cle= document.getElementById("cl");
 
 var num1="";
 var num2="";
@@ -113,3 +114,50 @@ nine.addEventListener('click', function(){
     }
     ans.value= num1+operator+num2;
 });
+
+divide.addEventListener("click", function(){
+    operator="/";
+    ans.value= num1+operator+num2;
+})
+
+mul.addEventListener("click", function(){
+    operator="*";
+    ans.value= num1+operator+num2;
+})
+
+plus.addEventListener("click", function(){
+    operator="+";
+    ans.value= num1+operator+num2;
+})
+
+sub.addEventListener("click", function(){
+    operator="-";
+    ans.value= num1+operator+num2;
+})
+
+equal.addEventListener("click",function(){
+    num1= Number(num1);
+    num2= Number(num2);
+
+    if(operator=="/"){
+        result= num1/num2
+    }
+    if(operator=="*"){
+        result= num1*num2
+    }
+    if(operator=="+"){
+        result= num1+num2
+    }
+    if(operator=="-"){
+        result= num1-num2
+    }
+    console.log(result)
+    ans.value=result;
+})
+
+cle.addEventListener("click",function(){
+    num1="";
+    num2="";
+    operator="";
+    ans.value= num1+operator+num2;
+})
