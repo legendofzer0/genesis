@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body class="bg-warning">
+    <h1 class="text-center font-monospace text-white">Calculator</h1>
+    <nav class="navbar navbar-default">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Navigation</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="/kmc Project organized/raw pages/home.html">Home</a></li>
+            <li><a href="/kmc Project organized/raw pages/student-Detail.html">Detail</a></li>
+            <li><a href="/kmc Project organized/raw pages/contact.html">Contact</a></li>
+            <li><a href="/kmc Project organized/raw pages/about.html">About</a></li>
+            <li class="active"><a href="#">Calculator</a></li>
+        </ul>
+    </nav>
+    <div id="container" class="calculator">
+        <div class="p-5 pt-2 bg-black">
+            <div class="m-3 input-group-sm">
+                <input id="display" type="text" class="display" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" />
+            </div>
+            <br><br>
+            <button id="cl" class="btn">Clear</button> <br /><br />
+            <div id="number">
+                <button id="one" class="btn">1</button>
+                <button id="two" class="btn">2</button>
+                <button id="three" class="btn">3</button>
+                <button id="four" class="btn">4</button>
+                <button id="five" class="btn">5</button>
+                <br/> <br>
+                <button id="six" class="btn">6</button>
+                <button id="seven" class="btn">7</button>
+                <button id="eight" class="btn">8</button>
+                <button id="nine" class="btn">9</button>
+                <button id="zero" class="btn">0</button>
+            </div>
+            <br />
+            <div id="operate">
+                <button id="plus" class="btn">+</button>
+                <button id="minus" class="btn">-</button>
+                <button id="product" class="btn">*</button>
+                <button id="divide" class="btn">/</button>
+                <button id="eql" class="btn">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/kmc Project organized/calculator/index.js"></script>
+
+</html>

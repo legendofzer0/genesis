@@ -1,0 +1,30 @@
+.img {
+    display: flex;
+    width: 200px;
+    height: auto;
+}
+
+.paragraph {
+    width: 900px;
+    height: auto;
+    text-align: justify;
+    margin-left: 400px;
+    text-indent: 60px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.form {
+    margin: auto;
+    padding: auto;
+    margin-top: 60px;
+    margin-left: 150px;
+}
+
+.null {
+    border-right: 0px;
+}
+
+#button {
+    margin-left: 400px;
+}
